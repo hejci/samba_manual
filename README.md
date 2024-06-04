@@ -19,9 +19,8 @@ sudo chown :sambashare /data
 # zmena prav - pridani prav groupe vlastnici slozku
 sudo chmod 770 /data
 
-# uprava konfigurace samby - /etc/samba/smbd.conf
-# pridat nakonec souboru 
-#
+# uprava konfigurace samby - /etc/samba/smbd.conf - pridat nakonec souboru 
+
 [sambashare]  
     comment = Samba on Ubuntu
     path = /data
